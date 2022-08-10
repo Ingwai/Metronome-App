@@ -11,8 +11,8 @@ const subtractBeats = document.querySelector('.subtract-beats');
 const addBeats = document.querySelector('.add-beats');
 const measureCount = document.querySelector('.measure-count');
 
-const click1 = new Audio('/links/click1.mp3');
-const click2 = new Audio('/links/click2.mp3');
+const click1 = new Audio('./links/click1.mp3');
+const click2 = new Audio('./links/click2.mp3');
 
 for (let i = 0; i < 4; i++) {
 	circle[i].style.display = 'block';

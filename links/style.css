@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
 * {
 	padding: 0;
 	margin: 0;
@@ -16,7 +17,7 @@ body {
 	align-items: center;
 	height: 100vh;
 	background-color: white;
-	background: url('/links/metronome.jpg');
+	background: url('../links/metronome.jpg');
 	background-size: cover;
 }
 
@@ -202,5 +203,4 @@ input[type='range']::-moz-range-track {
 }
 
 @media only screen and (max-width: 490px) {
-
-  }
+}
