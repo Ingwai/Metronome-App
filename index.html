@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/links/style.css">
+    <title>Metronome</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="metronome">
+            <div class="circle-counter">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+            </div>
+            <div class="bpm-display">
+                <span class="tempo"></span>
+                <span class="bpm">BPM</span>
+            </div>
+
+            <div class="tempo-text"></div>
+            <div class="tempo-settings">
+                <div class="adjust-tempo-btn decrease-tempo">–</div>
+                <input type="range" min="1" max="240" step="1" class="slider">
+                <div class="adjust-tempo-btn increase-tempo">+</div>
+            </div>
+            <div class="start-stop">START</div>
+            <div class="measures">
+                <div class="subtract-beats stepper">-</div>
+                <div class="measure-count">4</div>
+                <div class="add-beats stepper">+</div>
+            </div>
+            <p class="bpm-txt">BEATS PER MEASURE</p>
+        </div>
+
+    </div>
+
+    <script src="/links/timer.js"></script>
+    <script src="/links/script.js"></script>
+</body>
+
+</html>
